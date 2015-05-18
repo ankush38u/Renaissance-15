@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <!--Event text is white because white text custom theme applied to Schedule activity -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_cyan"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Embryo\n(Paper Presentation)\n9:30 AM-12:30 PM\nConference Hall"
+                android:textSize="@dimen/event_textSize"
+
+                />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_cyan"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Mad House Prelims\n(Enter in the craziest world)\n9:30 AM -11:30 AM\nLT-7"
+                android:textSize="@dimen/event_textSize"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_purple"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="JunkYard Wars\n9:30 AM- 12:30 PM\nBH 2 Lawns"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_teal"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Aero\n9:30 AM - 1:00 PM\nC Block Reception"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_teal"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Street Football\n9:30 AM- 3:30 PM \nC Block Lawns"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_blue"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Just C\n9:30 AM – 11:30 AM\nIBM Lab"
+                android:textSize="@dimen/event_textSize"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_blue"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Beat the Beats\n10:30 AM - 12:30 PM\nAuditorium"
+                android:textSize="@dimen/event_textSize" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_blue"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Juke Box\n11:30 AM onwards\nAnnouncement Desk"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_cyan"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Lan Gaming\n11:30 AM - 8:30 PM\nCp 8,9"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_cyan"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Robo War\n11:30 AM - 3:30 PM\nBlock A"
+                android:textSize="@dimen/event_textSize"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_cyan"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Fork Lifter\n12:30 PM – 3:30 PM\nBlock B"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_blue"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Java Lets\n1:00 PM - 3:00 PM\nIBM Lab"
+                android:textSize="@dimen/event_textSize" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_blue"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Sand It\n1:00 PM – 3:00 PM\nBadminton Court"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_pink"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Entrepreneurial Session\nby Alumni\n1:00 PM – 3:00 PM\nConference Hall"
+                android:textSize="@dimen/event_textSize"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_purple"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Mad House\n(Enter in the craziest world)\n1:00 PM -3:00 PM\nLT-7"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_purple"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Expert Talk\n(The Fashion Show)\n1:30 PM – 3:00 PM\nAuditorium"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_cyan"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Rockathon\n3:30 PM - 6:30 PM\nCentral Lawn"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_cyan"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Bootstrapping\n(Dance Competition)\n6:45 PM -9:45 PM\nCentral Lawn"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

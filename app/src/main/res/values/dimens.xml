@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dimen_elevation">4dp</dimen>
+    <dimen name="drawer_size">240dp</dimen>
+    <dimen name="padding_schedule_text">6dp</dimen>
+    <dimen name="event_margin">3dp</dimen>
+    <dimen name="event_textSize">16sp</dimen>
+    <dimen name="margin_for_event_buttons">4dp</dimen>
+    <dimen name="size_for_event_buttons">50dp</dimen>
+    <dimen name="textSize_for_event_buttons">16sp</dimen>
+</resources>

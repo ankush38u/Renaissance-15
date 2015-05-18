@@ -1,0 +1,415 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.electricdroid.renaissance.ContactUs">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar"
+        android:layout_margin="3dp"
+        card_view:cardBackgroundColor="@android:color/background_light"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="@dimen/dimen_elevation">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@color/cyan_500"
+                android:gravity="center"
+                android:text="Chief Coordinator"
+                android:textSize="20sp" />
+
+            <com.electricdroid.renaissance.RoundedImageView
+                android:id="@+id/anshul_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"></com.electricdroid.renaissance.RoundedImageView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/anshul"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/anshulfb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/fb" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@color/cyan_500"
+                android:gravity="center"
+                android:text="Sponsorship"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <com.electricdroid.renaissance.RoundedImageView
+                        android:id="@+id/parikshit_image"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"></com.electricdroid.renaissance.RoundedImageView>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/parikshit"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8"
+                            android:gravity="center"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/parikshitfb"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:src="@drawable/fb" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <com.electricdroid.renaissance.RoundedImageView
+                        android:id="@+id/jaswant_image"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"></com.electricdroid.renaissance.RoundedImageView>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/jaswant"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8"
+                            android:gravity="center"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/jaswantfb"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:src="@drawable/fb" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+                <!-- For Registrations -->
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/cyan_500"
+                    android:gravity="center"
+                    android:text="Registration"
+                    android:textSize="20sp" />
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:orientation="vertical">
+
+                        <com.electricdroid.renaissance.RoundedImageView
+                            android:id="@+id/vijay_image"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"></com.electricdroid.renaissance.RoundedImageView>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:id="@+id/vijay"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.8"
+                                android:gravity="center"
+                                android:textSize="12sp" />
+
+                            <ImageView
+                                android:id="@+id/vijayfb"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.2"
+                                android:src="@drawable/fb" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:orientation="vertical">
+
+                        <com.electricdroid.renaissance.RoundedImageView
+                            android:id="@+id/ankur_image"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"></com.electricdroid.renaissance.RoundedImageView>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:id="@+id/ankur"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.8"
+                                android:gravity="center"
+                                android:textSize="12sp" />
+
+                            <ImageView
+                                android:id="@+id/ankurfb"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.2"
+                                android:src="@drawable/fb" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+<!--accomodation-->
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/cyan_500"
+                    android:gravity="center"
+                    android:text="Accomodation"
+                    android:textSize="20sp" />
+                <com.electricdroid.renaissance.RoundedImageView
+                    android:id="@+id/rashmi_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"></com.electricdroid.renaissance.RoundedImageView>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/rashmi"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:gravity="center"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/rashmifb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/fb" />
+                </LinearLayout>
+
+
+
+
+                <!--Events -->
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/cyan_500"
+                    android:gravity="center"
+                    android:text="Events"
+                    android:textSize="20sp" />
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:orientation="vertical">
+
+                        <com.electricdroid.renaissance.RoundedImageView
+                            android:id="@+id/chetan_image"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"></com.electricdroid.renaissance.RoundedImageView>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:id="@+id/chetan"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.8"
+                                android:gravity="center"
+                                android:textSize="12sp" />
+
+                            <ImageView
+                                android:id="@+id/chetanfb"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.2"
+                                android:src="@drawable/fb" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:orientation="vertical">
+
+                        <com.electricdroid.renaissance.RoundedImageView
+                            android:id="@+id/ravi_image"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"></com.electricdroid.renaissance.RoundedImageView>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:id="@+id/ravi"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.8"
+                                android:gravity="center"
+                                android:textSize="12sp" />
+
+                            <ImageView
+                                android:id="@+id/ravifb"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.2"
+                                android:src="@drawable/fb" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+             </LinearLayout>
+
+                <com.electricdroid.renaissance.RoundedImageView
+                    android:id="@+id/shubham_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"></com.electricdroid.renaissance.RoundedImageView>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/shubham"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:gravity="center"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/shubhamfb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/fb" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

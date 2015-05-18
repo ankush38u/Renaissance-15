@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <HorizontalScrollView
+        android:id="@+id/scrollBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:scrollbars="none"
+            android:scrollbarStyle="insideOverlay">
+
+            <TextView
+                android:id="@+id/detailTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:textSize="25sp"
+                android:background="@color/primaryColor"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/rulesTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rules"
+                android:textSize="25sp"
+                android:layout_marginLeft="4dp"
+                android:background="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/venueTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venue"
+                android:textSize="25sp"
+                android:layout_marginLeft="4dp"
+                android:background="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/coordinatorTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Co-Ordinators"
+                android:textSize="25sp"
+                android:layout_marginLeft="4dp"
+                android:background="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/registrationTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textSize="25sp"
+                android:layout_marginLeft="4dp"
+                android:background="@android:color/background_light" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardBackgroundColor="@android:color/background_light"
+        card_view:cardElevation="@dimen/dimen_elevation"
+        card_view:cardCornerRadius="3dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/lldetails"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/singleTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:background="@android:color/white"
+                            android:text="Details here"
+                            android:textSize="22sp"
+                            android:elevation="@dimen/dimen_elevation" />
+
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible"
+                android:id="@+id/llForCoordinator">
+
+                <TextView
+                    android:id="@+id/coordinatornameTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="it is framelayout based Text"
+                    android:textSize="22sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/coordinator1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Coordinator-1"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:layout_margin="8dp"
+                        android:background="@color/primaryColor"
+                        android:textColor="@android:color/white"
+                        android:layout_weight="0.5" />
+
+                    <TextView
+                        android:id="@+id/coordinator2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Coordinator-2"
+                        android:gravity="center"
+                        android:layout_margin="8dp"
+                        android:textSize="18sp"
+                        android:background="@color/primaryColor"
+                        android:textColor="@android:color/white"
+                        android:layout_weight="0.5" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/divider" />
+            </LinearLayout>
+        </FrameLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

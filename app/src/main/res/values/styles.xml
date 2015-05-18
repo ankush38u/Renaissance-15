@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+
+    </style>
+
+
+    <!-- My Activity Theme -->
+    <style name="ActivityTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+
+       <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="MyCustomToolbarTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">@color/secondaryText</item>
+        <item name="android:statusBarColor">@color/primaryColorDark</item>
+    </style>
+
+
+
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="MyTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+</resources>

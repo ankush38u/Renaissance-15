@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.electricdroid.renaissance.Renaissance">
+
+    <!-- yu can put app_bar here too-->
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/app_bar"
+                layout="@layout/app_bar" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="@dimen/dimen_elevation">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+
+                            android:id="@+id/splashTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="top"
+                            android:layout_margin="11dp"
+                            android:background="@color/cyan_700"
+                            android:clickable="true"
+                            android:elevation="@dimen/dimen_elevation"
+                            android:gravity="center"
+                            android:text="Splash"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+
+                        <TextView
+                            android:id="@+id/endeavourTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="11dp"
+                            android:background="@color/cyan_600"
+                            android:clickable="true"
+                            android:elevation="@dimen/dimen_elevation"
+                            android:gravity="center"
+                            android:text="Endeavour"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/quantaTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="11dp"
+                            android:background="@color/cyan_500"
+                            android:clickable="true"
+                            android:elevation="@dimen/dimen_elevation"
+                            android:gravity="center"
+                            android:text="Quanta"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/hhiTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="11dp"
+                            android:background="@color/cyan_500"
+                            android:clickable="true"
+                            android:elevation="@dimen/dimen_elevation"
+                            android:gravity="center"
+                            android:text="HipHop International"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/doodleTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="11dp"
+                            android:background="@color/cyan_400"
+                            android:clickable="true"
+                            android:elevation="@dimen/dimen_elevation"
+                            android:gravity="center"
+                            android:text="The Doodle Carnival"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/zaruratTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="11dp"
+                            android:background="@color/cyan_500"
+                            android:clickable="true"
+                            android:elevation="@dimen/dimen_elevation"
+                            android:gravity="center"
+                            android:text="Zarurat"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/alumaniTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="11dp"
+                            android:background="@color/cyan_600"
+                            android:clickable="true"
+                            android:elevation="@dimen/dimen_elevation"
+                            android:gravity="center"
+                            android:text="Alumni"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                </ScrollView>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <fragment
+            android:id="@+id/fragment_navigation_drawer"
+            android:name="com.electricdroid.renaissance.NavigationDrawerFragment"
+            android:layout_width="@dimen/drawer_size"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:layout="@layout/fragment_navigation_drawer"
+            tools:layout="@layout/fragment_navigation_drawer" />
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

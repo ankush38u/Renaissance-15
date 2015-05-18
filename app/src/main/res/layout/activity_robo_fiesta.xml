@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.electricdroid.renaissance.SplashEvents">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/background_light"
+        card_view:cardElevation="@dimen/dimen_elevation"
+        card_view:cardCornerRadius="3dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+
+                <TextView
+                    android:id="@+id/robowarTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_700"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Robo War"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation"
+
+                    />
+                <TextView
+                    android:id="@+id/formulaZeroTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_600"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Formula Zero"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+                <TextView
+                    android:id="@+id/linefollowerTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_500"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Line Follower"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+<!--
+                <TextView
+                    android:id="@+id/rcCarTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/primaryColor"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="R.C Car"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+-->
+<TextView
+    android:id="@+id/prize_robo"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp"
+    android:gravity="center"
+    android:layout_margin="5dp"
+    android:textColor="#ffffff"
+    android:textSize="20sp"
+    android:background="@drawable/button_bg3"
+    android:text="Prizes Worth RS. 43,000/-"
+    />
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

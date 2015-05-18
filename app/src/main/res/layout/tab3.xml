@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <!--Event text is white because white text custom theme applied to Schedule activity -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_cyan"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Reverse Engineering\n(Mantle and Dismantle)\n9:30 AM-12:30 PM\nReference Library and ER"
+                android:textSize="@dimen/event_textSize"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_cyan"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Juke Box\n9:30 AM onwards\nAnnouncement Desk"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_purple"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Zenith\n9:30 AM – 12:30 PM\nC Block Lawns"
+                android:textSize="@dimen/event_textSize"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_purple"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Street Football\n9:30 AM- 3:30 PM\nC Block Lawns"
+                android:textSize="@dimen/event_textSize" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_teal"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Techno Crosswinds\n10:30 AM - 12:30 PM\nReference Library and ER"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_teal"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Campus Roadies\n10:30 AM - 2:30 PM\nCentral Lawn"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_teal"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Formula Zero\n(Mech Bot Racing contest)\n10:30 AM -2:30 PM\nBlock A"
+                android:textSize="@dimen/event_textSize"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_blue"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="LAN Gaming\n11:30 AM – 8:30 PM\nCP-8,9"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_blue"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Brain Wiz\n(Quiz Competition)\n1:00 PM -3:00 PM\nLT 7, LT 8"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_blue"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Trashion\n1:00 PM to 3:00 PM\nLT-7"
+                android:textSize="@dimen/event_textSize" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_cyan"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="The Uncensored Talk\nby Kalaage\n2:00 PM – 3:30 PM\nAuditorium"
+                android:textSize="@dimen/event_textSize"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_purple"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="HipHop International(HHI)\nRegional Auditions\n3:00 PM – 6:00 PM\nCentral Lawn"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_blue"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Vinyl War\n(DJ war)\n7:15 PM - 9:45 PM\nCentral Lawn"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

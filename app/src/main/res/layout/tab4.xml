@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <!--Event text is white because white text custom theme applied to Schedule activity -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_cyan"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Nukkad Natak\n9:30 AM-11:30 AM\nBlock A"
+                android:textSize="@dimen/event_textSize"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_cyan"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Gully Cricket\n9:30 AM - 1:30 PM\nGH Lawn and BH-2 Lawn"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_blue"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Alumni Talks- The Debate\n10:30 AM – 11:30 AM\nAuditorium"
+                android:textSize="@dimen/event_textSize"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_blue"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Line Follower\n10:30 AM -12:30 PM\nLT-7"
+                android:textSize="@dimen/event_textSize"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_purple"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Antakshari\n12:00 PM – 2:30 PM\nBlock A"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_teal"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Kavi Sammelan\n12:00 PM - 2:30 PM\nAuditorium"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_teal"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Burn The Roads\n2:45 PM -3:45 PM\nParking"
+                android:textSize="@dimen/event_textSize"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_pink"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Step Up\n4:00 PM - 7:00 PM\nBlock A"
+                android:textSize="@dimen/event_textSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/event_margin"
+                android:background="@color/event_color_purple"
+                android:elevation="@dimen/dimen_elevation"
+                android:gravity="center"
+                android:padding="@dimen/padding_schedule_text"
+                android:text="Certificate Distribution\n7:00 PM – 8:00 PM\nBlock A"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/event_textSize" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

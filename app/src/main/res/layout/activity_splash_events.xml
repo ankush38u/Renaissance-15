@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.electricdroid.renaissance.SplashEvents">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardBackgroundColor="@android:color/background_light"
+        card_view:cardElevation="@dimen/dimen_elevation"
+        card_view:cardCornerRadius="3dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/antakshriTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_800"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Antakshri"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation"
+
+                    />
+                <TextView
+                    android:id="@+id/campusRoadiesTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_800"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Campus Roadies"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+                <TextView
+                    android:id="@+id/eatifyoucanTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_700"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Chef's corner"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+
+
+                <TextView
+                    android:id="@+id/streetfootballTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_600"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Street Football"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+
+                <TextView
+                    android:id="@+id/beatTheBeatsTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_600"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Beat The Beats"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+
+                <TextView
+                    android:id="@+id/gullycricketTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_500"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Gully Cricket"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+
+                <TextView
+                    android:id="@+id/langamingTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_500"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Lan Gaming"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+
+                <TextView
+                    android:id="@+id/madhouseTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_500"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Mad House"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+
+                <TextView
+                    android:id="@+id/rapzapTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_400"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Rap Zap"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+
+                <TextView
+                    android:id="@+id/TrashionTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_400"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Trashion"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+                <TextView
+                    android:id="@+id/madeitmyselfTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_for_event_buttons"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_for_event_buttons"
+                    android:background="@color/cyan_400"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Made It Myself"
+                    android:textSize="@dimen/textSize_for_event_buttons"
+                    android:elevation="@dimen/dimen_elevation" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

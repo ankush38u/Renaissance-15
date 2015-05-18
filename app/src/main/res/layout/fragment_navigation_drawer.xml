@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.electricdroid.renaissance.NavigationDrawerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/img_view_renaissa"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="18dp"
+
+        android:src="@drawable/banner" />
+
+    <View
+        android:layout_below="@id/img_view_renaissa"
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="1dp"
+        android:background="@color/divider" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:id="@+id/myRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/divider">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

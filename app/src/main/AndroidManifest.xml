@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.electricdroid.renaissance" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Renaissance"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Schedule"
+            android:label="@string/title_activity_schedule"
+            android:parentActivityName=".Renaissance"
+            android:theme="@style/ActivityTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.Renaissance" />
+        </activity>
+        <activity
+            android:name=".SplashEvents"
+            android:label="@string/title_activity_splash_events"
+            android:parentActivityName=".Renaissance"
+            android:theme="@style/ActivityTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.Renaissance" />
+        </activity>
+        <activity
+            android:name=".QuantaEvents"
+            android:label="@string/title_activity_quanta_events"
+            android:parentActivityName=".Renaissance" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.Renaissance" />
+        </activity>
+        <activity
+            android:name=".EndeavourEvents"
+            android:label="@string/title_activity_endeavour_events"
+            android:parentActivityName=".Renaissance"
+            android:theme="@style/ActivityTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.Renaissance" />
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".splash.SplashEvent"
+            android:label="@string/title_activity_test_event"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".Website"
+            android:label="@string/title_activity_website" />
+        <activity
+            android:name=".gallery.GalleryView"
+            android:label="@string/title_activity_gallery"
+            android:parentActivityName=".Renaissance" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.Renaissance" />
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".Renaissance" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.Renaissance" />
+        </activity>
+        <activity
+            android:name=".splash.Antakshri"
+            android:label="Antakshri"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".splash.FootLoose"
+            android:label="FootLoose"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".splash.CampusRoadies"
+            android:label="Campus Roadies"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".splash.BeatTheBeats"
+            android:label="Beat The Beats"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".splash.ChefsCorner"
+            android:label="Chefs Corner"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".splash.StreetFootball"
+            android:label="Street Football"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".splash.GullyCricket"
+            android:label="Gully Cricket"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".splash.LanGaming"
+            android:label="Lan Gaming"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".splash.MadHouse"
+            android:label="Mad House"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".splash.RapZap"
+            android:label="Rap Zap"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".splash.Trashion"
+            android:label="Trashion"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".splash.MadeItMyself"
+            android:label="Made It Myself"
+            android:parentActivityName=".SplashEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.SplashEvents" />
+        </activity>
+        <activity
+            android:name=".quanta.Constructo"
+            android:label="@string/title_activity_constructo"
+            android:parentActivityName=".QuantaEvents"
+            android:theme="@style/ActivityTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.QuantaEvents" />
+        </activity>
+        <activity
+            android:name=".quanta.constructo.Aero"
+            android:label="Aero"
+            android:parentActivityName=".quanta.Constructo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.Constructo" />
+        </activity>
+        <activity
+            android:name=".quanta.constructo.BrainWiz"
+            android:label="Brain Wiz"
+            android:parentActivityName=".quanta.Constructo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.Constructo" />
+        </activity>
+        <activity
+            android:name=".quanta.constructo.Combatant"
+            android:label="Combatant"
+            android:parentActivityName=".quanta.Constructo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.Constructo" />
+        </activity>
+        <activity
+            android:name=".quanta.constructo.Dexterity"
+            android:label="Dexterity"
+            android:parentActivityName=".quanta.Constructo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.Constructo" />
+        </activity>
+        <activity
+            android:name=".quanta.constructo.Embryo"
+            android:label="Embryo"
+            android:parentActivityName=".quanta.Constructo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.Constructo" />
+        </activity>
+        <activity
+            android:name=".quanta.constructo.ForkLifter"
+            android:label="Fork Lifter"
+            android:parentActivityName=".quanta.Constructo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.Constructo" />
+        </activity>
+        <activity
+            android:name=".quanta.constructo.JunkyardWar"
+            android:label="Junkyard War"
+            android:parentActivityName=".quanta.Constructo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.Constructo" />
+        </activity>
+        <activity
+            android:name=".quanta.constructo.ReverseEngineering"
+            android:label="Reverse Engineering"
+            android:parentActivityName=".quanta.Constructo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.Constructo" />
+        </activity>
+        <activity
+            android:name=".quanta.constructo.SandIt"
+            android:label="Sand It"
+            android:parentActivityName=".quanta.Constructo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.Constructo" />
+        </activity>
+        <activity
+            android:name=".quanta.constructo.SpellBee"
+            android:label="Spell Bee"
+            android:parentActivityName=".quanta.Constructo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.Constructo" />
+        </activity>
+        <activity
+            android:name=".quanta.constructo.TechnoCrosswinds"
+            android:label="Techno Crosswinds"
+            android:parentActivityName=".quanta.Constructo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.Constructo" />
+        </activity>
+        <activity
+            android:name=".quanta.constructo.Zenith"
+            android:label="Zenith"
+            android:parentActivityName=".quanta.Constructo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.Constructo" />
+        </activity>
+        <activity
+            android:name=".quanta.ComputerKingdom"
+            android:label="@string/title_activity_computer_kingdom"
+            android:parentActivityName=".QuantaEvents"
+            android:theme="@style/ActivityTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.QuantaEvents" />
+        </activity>
+        <activity
+            android:name=".quanta.computerkingdom.JavaLets"
+            android:label="Java Lets"
+            android:parentActivityName=".quanta.ComputerKingdom" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.ComputerKingdom" />
+        </activity>
+        <activity
+            android:name=".quanta.computerkingdom.JustC"
+            android:label="Just C"
+            android:parentActivityName=".quanta.ComputerKingdom" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.ComputerKingdom" />
+        </activity>
+        <activity
+            android:name=".quanta.computerkingdom.StepToStock"
+            android:label="Step To Stock"
+            android:parentActivityName=".quanta.ComputerKingdom" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.ComputerKingdom" />
+        </activity>
+        <activity
+            android:name=".quanta.computerkingdom.Subito"
+            android:label="Subito"
+            android:parentActivityName=".quanta.ComputerKingdom" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.ComputerKingdom" />
+        </activity>
+        <activity
+            android:name=".quanta.computerkingdom.CaddMania"
+            android:label="Cadd Mania"
+            android:parentActivityName=".quanta.ComputerKingdom" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.ComputerKingdom" />
+        </activity>
+        <activity
+            android:name=".quanta.RoboFiesta"
+            android:label="@string/title_activity_robo_fiesta"
+            android:parentActivityName=".QuantaEvents"
+            android:theme="@style/ActivityTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.QuantaEvents" />
+        </activity>
+        <activity
+            android:name=".quanta.robofiesta.RoboWar"
+            android:label="Robo War"
+            android:parentActivityName=".quanta.RoboFiesta" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.RoboFiesta" />
+        </activity>
+        <activity
+            android:name=".quanta.robofiesta.LineFollower"
+            android:label="Line Follower"
+            android:parentActivityName=".quanta.RoboFiesta" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.RoboFiesta" />
+        </activity>
+        <activity
+            android:name=".quanta.robofiesta.FormulaZero"
+            android:label="Formula Zero"
+            android:parentActivityName=".quanta.RoboFiesta" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.RoboFiesta" />
+        </activity>
+        <activity
+            android:name=".quanta.robofiesta.RCCar"
+            android:label="R.C Car"
+            android:parentActivityName=".quanta.RoboFiesta" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.quanta.RoboFiesta" />
+        </activity>
+        <activity
+            android:name=".endeavour.EndeavourEvent"
+            android:label="@string/title_activity_endeavour_event"
+            android:parentActivityName=".Renaissance"
+            android:theme="@style/ActivityTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.Renaissance" />
+        </activity>
+        <activity
+            android:name=".endeavour.Adaa"
+            android:label="Adaa"
+            android:parentActivityName=".EndeavourEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.EndeavourEvents" />
+        </activity>
+        <activity
+            android:name=".endeavour.Anupras"
+            android:label="Anupras"
+            android:parentActivityName=".EndeavourEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.EndeavourEvents" />
+        </activity>
+        <activity
+            android:name=".endeavour.BootStrapping"
+            android:label="Boot Strapping"
+            android:parentActivityName=".EndeavourEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.EndeavourEvents" />
+        </activity>
+        <activity
+            android:name=".endeavour.NukkadNatak"
+            android:label="Nukkad Natak"
+            android:parentActivityName=".EndeavourEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.EndeavourEvents" />
+        </activity>
+        <activity
+            android:name=".endeavour.RagaNight"
+            android:label="Raga Night"
+            android:parentActivityName=".EndeavourEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.EndeavourEvents" />
+        </activity>
+        <activity
+            android:name=".endeavour.Rockathon"
+            android:label="Rock&apos;Athon"
+            android:parentActivityName=".EndeavourEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.EndeavourEvents" />
+        </activity>
+        <activity
+            android:name=".endeavour.StepUp"
+            android:label="StepUp"
+            android:parentActivityName=".EndeavourEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.EndeavourEvents" />
+        </activity>
+        <activity
+            android:name=".endeavour.VinylWar"
+            android:label="Vinyl War"
+            android:parentActivityName=".EndeavourEvents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.EndeavourEvents" />
+        </activity>
+        <activity
+            android:name=".quanta.QuantaEvent"
+            android:label="@string/title_activity_quanta_event" />
+        <activity
+            android:name=".Doodle"
+            android:label="@string/title_activity_doodle"
+            android:parentActivityName=".Renaissance"
+            android:theme="@android:style/Theme.Dialog" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.Renaissance" />
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:parentActivityName=".Renaissance"
+            android:theme="@style/ActivityTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.electricdroid.renaissance.Renaissance" />
+        </activity>
+        <activity
+            android:name=".Prefs"
+            android:label="Prefrences" >
+        </activity>
+        <activity
+            android:name=".Zarurat"
+            android:label="@string/title_activity_zarurat"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".Alumni"
+            android:label="@string/title_activity_alumani"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+    </application>
+
+</manifest>
